@@ -1,0 +1,60 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Nop.Plugin Template 4.10</Name>
+    <Description>Plugin template for NopCommerce 4.10</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Nop.Plugin.Misc.CustomPlugin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.jpg</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Nop.Plugin.csproj" File="Nop.Plugin.csproj" ReplaceParameters="true">
+      <Folder Name="Areas" TargetFolderName="Areas">
+        <Folder Name="Admin" TargetFolderName="Admin">
+          <Folder Name="Controllers" TargetFolderName="Controllers" />
+          <Folder Name="Extensions" TargetFolderName="Extensions" />
+          <Folder Name="Factories" TargetFolderName="Factories" />
+          <Folder Name="Infrastructure" TargetFolderName="Infrastructure">
+            <ProjectItem ReplaceParameters="true" TargetFileName="DependencyRegistrar.cs">DependencyRegistrar.cs</ProjectItem>
+          </Folder>
+          <Folder Name="Models" TargetFolderName="Models" />
+          <Folder Name="Views" TargetFolderName="Views">
+            <ProjectItem ReplaceParameters="true" TargetFileName="_ViewImports.cshtml">_ViewImports.cshtml</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="Components" TargetFolderName="Components">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CustomViewComponent.cs">CustomViewComponent.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers" />
+      <Folder Name="Data" TargetFolderName="Data">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CustomObjectContext.cs">CustomObjectContext.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CustomTableMap.cs">CustomTableMap.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Domains" TargetFolderName="Domains">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CustomTable.cs">CustomTable.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Extensions" TargetFolderName="Extensions" />
+      <Folder Name="Factories" TargetFolderName="Factories" />
+      <Folder Name="Infrastructure" TargetFolderName="Infrastructure">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DependencyRegistrar.cs">DependencyRegistrar.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PluginNopStartup.cs">PluginNopStartup.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ViewLocationExpander.cs">ViewLocationExpander.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models" />
+      <Folder Name="Services" TargetFolderName="Services" />
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewImports.cshtml">_ViewImports.cshtml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="logo.jpg">logo.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="plugin.json">plugin.json</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
