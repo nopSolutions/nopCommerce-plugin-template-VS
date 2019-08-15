@@ -1,0 +1,11 @@
+﻿{
+  "Group": "",
+  "FriendlyName": "",
+  "SystemName": "",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.20" ],
+  "Author": "Author Name",
+  "DisplayOrder": 1,
+  "FileName": "$safeprojectname$.dll",
+  "Description": ""
+}
