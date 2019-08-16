@@ -3,7 +3,7 @@ Plugin Template for VS
 
 This is a Visual Studio template for creating new nopCommerce plugin.
 
-By using it, developers do not need do initial steps, such as lots of folders creation (Controllers, Views, Models etc.), mostly needed files (DependencyRegistrar.cs, _ViewImports.cshtml, ObjectContex, plugin.json etc), configuration, project references and lot more things.
+It can say a lot of time for developers. Because now they don't have to do manually all initial steps. Such as folders creation (Controllers, Views, Models etc.), other required files (DependencyRegistrar.cs, _ViewImports.cshtml, ObjectContex, plugin.json etc), configuration, project references, etc).
 
 ### Install instruction:
 
