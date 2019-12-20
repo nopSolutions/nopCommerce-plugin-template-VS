@@ -13,6 +13,8 @@
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <CreateInPlace>true</CreateInPlace>
     <Icon>__TemplateIcon.jpg</Icon>
+	<LanguageTag>CSharp</LanguageTag>
+	<ProjectTypeTag>Library</ProjectTypeTag>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Nop.Plugin.csproj" File="Nop.Plugin.csproj" ReplaceParameters="true">
