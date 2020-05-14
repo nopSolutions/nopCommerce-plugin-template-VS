@@ -14,11 +14,11 @@ namespace $safeprojectname$.Infrastructure
         {
             if (context.AreaName == "Admin")
             {
-                viewLocations = new[] { $"/Plugins/NopPlugin_Template_410/Areas/Admin/Views/{context.ControllerName}/{context.ViewName}.cshtml" }.Concat(viewLocations);
+                viewLocations = new[] { $"/Plugins/$safeprojectname$/Areas/Admin/Views/{context.ControllerName}/{context.ViewName}.cshtml" }.Concat(viewLocations);
             }
             else
             {
-                viewLocations = new[] { $"/Plugins/NopPlugin_Template_410/Views/{context.ControllerName}/{context.ViewName}.cshtml" }.Concat(viewLocations);
+                viewLocations = new[] { $"/Plugins/$safeprojectname$/Views/{context.ControllerName}/{context.ViewName}.cshtml" }.Concat(viewLocations);
             }
 
             return viewLocations;

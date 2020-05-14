@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Nop.Plugin Template 4.20</Name>
-    <Description>Plugin template for NopCommerce 4.20</Description>
+    <Name>Nop.Plugin Template 4.30</Name>
+    <Description>Plugin template for NopCommerce 4.30</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
@@ -36,10 +36,6 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="CustomViewComponent.cs">CustomViewComponent.cs</ProjectItem>
       </Folder>
       <Folder Name="Controllers" TargetFolderName="Controllers" />
-      <Folder Name="Data" TargetFolderName="Data">
-        <ProjectItem ReplaceParameters="true" TargetFileName="CustomObjectContext.cs">CustomObjectContext.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="CustomTableMap.cs">CustomTableMap.cs</ProjectItem>
-      </Folder>
       <Folder Name="Domains" TargetFolderName="Domains">
         <ProjectItem ReplaceParameters="true" TargetFileName="CustomTable.cs">CustomTable.cs</ProjectItem>
       </Folder>
@@ -50,6 +46,15 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="PluginNopStartup.cs">PluginNopStartup.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ViewLocationExpander.cs">ViewLocationExpander.cs</ProjectItem>
       </Folder>
+	  <Folder Name="Mapping" TargetFolderName="Mapping">
+		<Folder Name="Builders" TargetFolderName="Builders">
+		  <ProjectItem ReplaceParameters="true" TargetFileName="PluginBuilder.cs">PluginBuilder.cs</ProjectItem>
+		</Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NameCompatibility.cs">NameCompatibility.cs</ProjectItem>
+      </Folder>
+	  <Folder Name="Migrations" TargetFolderName="Migrations">
+		<ProjectItem ReplaceParameters="true" TargetFileName="SchemaMigration.cs">SchemaMigration.cs</ProjectItem>
+	  </Folder>
       <Folder Name="Models" TargetFolderName="Models" />
       <Folder Name="Services" TargetFolderName="Services" />
       <Folder Name="Views" TargetFolderName="Views">

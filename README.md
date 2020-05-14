@@ -11,8 +11,8 @@ Supported versions of Visual Studio: **2017** and **2019**
 
 1. Download template folder
 2. Copy downloaded folder or zip archive into the one of this folders:
-	1. C:\Users\{**Username**}\Documents\{**VisualStudio**}\Templates\ProjectTemplates
-	2. C:\Users\{**Username**}\Documents\{**VisualStudio**}\Templates\ProjectTemplates\Visual C#
+	1. C:\Users\\{**Username**}\Documents\\{**VisualStudio**}\Templates\ProjectTemplates
+	2. C:\Users\\{**Username**}\Documents\\{**VisualStudio**}\Templates\ProjectTemplates\Visual C#
     
 	**Username** - `your username on this PC` 
 
