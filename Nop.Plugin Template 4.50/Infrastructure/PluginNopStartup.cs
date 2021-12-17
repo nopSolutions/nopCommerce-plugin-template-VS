@@ -9,11 +9,14 @@ namespace $safeprojectname$.Infrastructure
     public class PluginNopStartup : INopStartup
     {
         public void ConfigureServices(IServiceCollection services, IConfiguration configuration)
-        {           
+        {
             services.Configure<RazorViewEngineOptions>(options =>
             {
                 options.ViewLocationExpanders.Add(new ViewLocationExpander());
             });
+
+            //register services and interfaces
+            //services.AddScoped<CustomModelFactory, ICustomerModelFactory>();
         }
 
         public void Configure(IApplicationBuilder application)

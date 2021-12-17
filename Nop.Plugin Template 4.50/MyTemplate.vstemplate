@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Nop.Plugin Template 4.40</Name>
-    <Description>Plugin template for NopCommerce 4.40</Description>
+    <Name>Nop.Plugin Template 4.50</Name>
+    <Description>Plugin template for NopCommerce 4.50</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
@@ -22,10 +22,7 @@
         <Folder Name="Admin" TargetFolderName="Admin">
           <Folder Name="Controllers" TargetFolderName="Controllers" />
           <Folder Name="Extensions" TargetFolderName="Extensions" />
-          <Folder Name="Factories" TargetFolderName="Factories" />
-          <Folder Name="Infrastructure" TargetFolderName="Infrastructure">
-            <ProjectItem ReplaceParameters="true" TargetFileName="DependencyRegistrar.cs">DependencyRegistrar.cs</ProjectItem>
-          </Folder>
+          <Folder Name="Factories" TargetFolderName="Factories" />          
           <Folder Name="Models" TargetFolderName="Models" />
           <Folder Name="Views" TargetFolderName="Views">
             <ProjectItem ReplaceParameters="true" TargetFileName="_ViewImports.cshtml">_ViewImports.cshtml</ProjectItem>
@@ -42,7 +39,6 @@
       <Folder Name="Extensions" TargetFolderName="Extensions" />
       <Folder Name="Factories" TargetFolderName="Factories" />
       <Folder Name="Infrastructure" TargetFolderName="Infrastructure">
-        <ProjectItem ReplaceParameters="true" TargetFileName="DependencyRegistrar.cs">DependencyRegistrar.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="PluginNopStartup.cs">PluginNopStartup.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ViewLocationExpander.cs">ViewLocationExpander.cs</ProjectItem>
       </Folder>
