@@ -19,6 +19,13 @@ Supported versions of Visual Studio: **2017**, **2019** and **2022**
 	**VisualStudio** - `the folder of target version of visual studio`
 
 
+Support for dotnet template (Support VSCode and Jetbrain Raider)
+### Install instruction:
+
+1. Download template folder
+2. Inside the "Nop.Plugin Template 4.50" run command "dotnet new -i .\"
+
+
 original author: 
 
 [Jaber Kibria](https://www.nopcommerce.com/profile.aspx?userid=227460) (mhsjaber@gmail.com)
