@@ -13,6 +13,6 @@ public class SchemaMigration : AutoReversingMigration
     /// </summary>
     public override void Up()
     {
-        Create.TableFor<CustomTable>();
+        this.CreateTableIfNotExists<CustomTable>();
     }
 }
